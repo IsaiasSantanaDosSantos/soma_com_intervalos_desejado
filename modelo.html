@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..css/estilo.css"> <!--Caminho para pasta externa com estilos CSS-->
+    <title>Vamos contar</title> <!--Titulo-->
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar!</h1> <!--Titulo do cabeçalhio-->
+    </header>
+    <section> <!--Seção-->
+         <div id="dados">
+            <p>Início: <input type="number" name="inicio" id="txti"></p> <!--Número inicial-->
+            <p>Fim: <input type="number" name="fim" id="txtf"></p> <!--Número final-->
+            <p>Passo: <input type="number" name="passo" id="txtp"></p> <!--Pular de quanto em quanto...-->
+            <p><input type="button" value="Contar" onclick="contar()"></p><!--Botão já com nome da fução em JS-->
+             
+         </div>
+         <div id="res">
+             Preparando a contagem... <!--Texto será trocado posteriormente.-->
+         </div>
+    </section>
+    <footer> <!--Roda pé-->
+         <p>&copy;2021 - Desenvolvido por Isaias Santana Dos Santos.</p>
+    </footer>
+    <script src="..javascript/script.js"></script> <!--Caminho para pasta externa com interações JavaScript-->
+</body>
+</html>

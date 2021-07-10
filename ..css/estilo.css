@@ -1,11 +1,12 @@
 
 body {
-    background-color: rgb(70, 142, 236); /*Cor do fundo*/
+    background-image: url('../relogios.jpg'); /*fundo*/
+    backface-visibility: 0.2; 
     font: normal 16px Arial; /*Tipo e tamanho da fonte*/
 }
 
 header { /*Cabeçalhio*/
-     color: white; /*Cor de fundo*/
+     color: black; /*Cor de fundo*/
      text-align: center ; /* Texto centralizado*/
 }
 
